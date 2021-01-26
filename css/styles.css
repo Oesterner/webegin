@@ -1,0 +1,38 @@
+#header-nav {
+  position: relative;
+  height: 150px;
+  background-color: #f8edaf;
+  border-radius: 0;
+  border-bottom: 3px;
+  border-color: #000000;
+  border-bottom-style: solid;
+}
+.container {
+  max-width: 90%
+}
+.body-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #ffcece;
+  padding: 15px 15px 10px 10px;
+  border: 2px 2px 2px 2px;
+  border-style: solid;
+  border-color: black;
+}
+.ingredients {
+  font-size: 2em;
+}
+#title {
+  margin-top: 15px;
+}
+#nav-list {
+  float: right;
+}
+@media (min-width: 767px) {
+  #menu {
+    visibility: hidden;
+  }
+  #navbar-list {
+    visibility: hidden;
+  }
+}
